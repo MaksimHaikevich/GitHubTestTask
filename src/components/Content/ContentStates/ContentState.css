@@ -1,0 +1,17 @@
+.content-wrapper {
+    height: calc(100vh - 72px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.initialText {
+    width: 210px;
+    height: 62px;
+    font-size: 22px;
+    color: #808080;
+    text-align: center;
+    line-height: 140%;
+}

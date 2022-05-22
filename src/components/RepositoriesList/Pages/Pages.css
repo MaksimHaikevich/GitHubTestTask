@@ -1,0 +1,64 @@
+.pages {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #808080;
+    padding: 0 var(--overall-indent) 30px;
+    align-items: center;
+}
+
+.pages-description {
+}
+
+.paginator {
+    display: flex;
+    list-style: none;
+}
+
+.page-item, .page-item-selected {
+    margin: 0 6px;
+    width: 21px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.page-item-selected {
+    border-radius: 3px;
+    background: #0064EB;
+    color: #FFFFFF;
+}
+
+.previous, .next {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 16px 0 24px;
+}
+
+.next:hover svg > path {
+    stroke: #0064EB;
+}
+
+.previous:hover svg > path {
+    fill: #0064EB;
+}
+
+.break {
+    height: 25px;
+    width: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+    .previous, .next {
+        margin: 0 16px 0 15px;
+    }
+}

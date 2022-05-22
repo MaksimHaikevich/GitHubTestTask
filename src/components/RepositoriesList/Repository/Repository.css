@@ -1,0 +1,29 @@
+.repository-wrapper {
+    background: #FFFFFF;
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 6px;
+    gap: 16px;
+}
+
+.repository-title  a{
+    height: 29px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0064EB;
+    text-decoration: none;
+}
+
+.repository-description {
+    height: 19px;
+    line-height: 19px;
+}
+@media only screen and (max-width: 480px) {
+    .repository-title a {
+        font-size: 18px;
+    }
+}

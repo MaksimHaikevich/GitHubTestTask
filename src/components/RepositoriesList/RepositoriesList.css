@@ -1,0 +1,38 @@
+.repositories {
+    width: 100%;
+}
+
+.repositories-title {
+    height: 42px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 29px;
+}
+
+.repositories-grids {
+    display: grid;
+    grid-gap: 24px;
+}
+
+.pages-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 26px;
+    font-size: 14px;
+}
+
+.pages span {
+    margin: 0 16px;
+    cursor: pointer;
+    width: 21px;
+    height: 25px;
+}
+
+@media only screen and (max-width: 480px) {
+    .repositories-title {
+        font-size: 24px;
+    }
+}

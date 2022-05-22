@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 28px var(--overall-indent) 24px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 96px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .profile-info,
+    .repositories {
+        width: 100%;
+    }
+}

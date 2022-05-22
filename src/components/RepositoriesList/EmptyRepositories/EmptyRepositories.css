@@ -1,0 +1,28 @@
+.repositories-empty {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-message {
+    color: #808080;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .repositories-empty {
+        height: 40vh;
+    }
+}

@@ -1,0 +1,100 @@
+.profile-info {
+    max-width: 292px;
+    width: 50%;
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 11px;
+}
+
+.info {
+
+}
+
+.name {
+    font-size: 26px;
+    color: black;
+    font-weight: 600;
+    line-height: 130%;
+    margin: 29px 0 12px 0;
+
+}
+
+.login {
+    margin-bottom: 25px;
+}
+
+.login a {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0064EB;
+    text-decoration: none;
+}
+
+.social-info {
+    display: flex;
+    gap: 16px;
+}
+
+.social-info-count {
+    display: flex;
+    gap: 8px;
+}
+
+.info-count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 150%;
+    color: #000000;
+    width: max-content;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .social-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-info {
+        max-width: 100%;
+        display: flex;
+        gap: 16px;
+    }
+
+    .avatar {
+        width: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login {
+        margin-bottom: 15px;
+    }
+
+    .social-info {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .social-info-count {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .avatar {
+        width: 40%;
+    }
+}
